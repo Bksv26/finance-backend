@@ -4,11 +4,12 @@
   "description": "Finance Data Processing and Access Control Backend",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "test": "node src/tests/run.js",
-    "seed": "node src/seeds/seed.js"
-  },
+  "build": "npm install --build-from-source",
+  "start": "node src/app.js",
+  "dev": "nodemon src/app.js",
+  "test": "node src/tests/run.js",
+  "seed": "node src/seeds/seed.js"
+},
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "better-sqlite3": "^9.4.3",
